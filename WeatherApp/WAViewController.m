@@ -32,7 +32,6 @@ static NSString *kCellReuseIdentifier   = @"forecastCell";
 {
     [super viewDidLoad];
     
-//    self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
     
     self.title = @"Weather App";
