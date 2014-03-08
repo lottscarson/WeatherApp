@@ -37,6 +37,8 @@
 		D247E4FA18CA4C64000798C1 /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = D247E4F618CA4C64000798C1 /* FBShimmeringView.m */; };
 		D247E4FD18CAA41D000798C1 /* WALoadingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = D247E4FC18CAA41D000798C1 /* WALoadingOverlay.m */; };
 		D247E4FE18CAA41D000798C1 /* WALoadingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = D247E4FC18CAA41D000798C1 /* WALoadingOverlay.m */; };
+		D2A44D1918CB842300EC41F9 /* WANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A44D1818CB842300EC41F9 /* WANavigationController.m */; };
+		D2A44D1A18CB842300EC41F9 /* WANavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A44D1818CB842300EC41F9 /* WANavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +90,8 @@
 		D247E4F618CA4C64000798C1 /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
 		D247E4FB18CAA41D000798C1 /* WALoadingOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WALoadingOverlay.h; sourceTree = "<group>"; };
 		D247E4FC18CAA41D000798C1 /* WALoadingOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WALoadingOverlay.m; sourceTree = "<group>"; };
+		D2A44D1718CB842300EC41F9 /* WANavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WANavigationController.h; sourceTree = "<group>"; };
+		D2A44D1818CB842300EC41F9 /* WANavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WANavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 				D247E4EF18CA4C48000798C1 /* Third-Party */,
 				D225F07618C94CF600DE3A3D /* WAAppDelegate.h */,
 				D225F07718C94CF600DE3A3D /* WAAppDelegate.m */,
+				D2A44D1718CB842300EC41F9 /* WANavigationController.h */,
+				D2A44D1818CB842300EC41F9 /* WANavigationController.m */,
 				D225F07C18C94CF600DE3A3D /* WAViewController.h */,
 				D225F07D18C94CF600DE3A3D /* WAViewController.m */,
 				D225F07918C94CF600DE3A3D /* Main.storyboard */,
@@ -343,6 +349,7 @@
 				D225F0A918C9584000DE3A3D /* WeatherCommunicator.m in Sources */,
 				D225F07418C94CF600DE3A3D /* main.m in Sources */,
 				D225F07E18C94CF600DE3A3D /* WAViewController.m in Sources */,
+				D2A44D1918CB842300EC41F9 /* WANavigationController.m in Sources */,
 				D225F0A118C9543700DE3A3D /* CurrentWeather.m in Sources */,
 				D247E4FD18CAA41D000798C1 /* WALoadingOverlay.m in Sources */,
 				D225F0AD18C9699F00DE3A3D /* WeatherData.m in Sources */,
@@ -363,6 +370,7 @@
 				D225F09318C94CF600DE3A3D /* WeatherAppTests.m in Sources */,
 				D225F0A618C9546E00DE3A3D /* ForecastDay.m in Sources */,
 				D247E4FE18CAA41D000798C1 /* WALoadingOverlay.m in Sources */,
+				D2A44D1A18CB842300EC41F9 /* WANavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

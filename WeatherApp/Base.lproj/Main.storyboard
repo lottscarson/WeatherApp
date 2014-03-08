@@ -126,7 +126,7 @@
         <!--Navigation Controller-->
         <scene sceneID="gmv-5u-pQ5">
             <objects>
-                <navigationController definesPresentationContext="YES" id="Grj-Gb-4TZ" sceneMemberID="viewController">
+                <navigationController definesPresentationContext="YES" id="Grj-Gb-4TZ" customClass="WANavigationController" sceneMemberID="viewController">
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GYj-jB-lgQ">
                         <autoresizingMask key="autoresizingMask"/>
