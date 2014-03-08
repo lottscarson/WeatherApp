@@ -37,18 +37,24 @@
                                             <nil key="highlightedColor"/>
                                             <size key="shadowOffset" width="0.0" height="0.0"/>
                                         </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Durham, NC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cY1-CL-n56">
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Durham, NC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cY1-CL-n56">
                                             <rect key="frame" x="20" y="147" width="280" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="17" id="c2D-bL-lqW"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                     <constraints>
+                                        <constraint firstItem="cY1-CL-n56" firstAttribute="leading" secondItem="XAw-0a-dGV" secondAttribute="leading" constant="20" id="0Dv-W1-aJY"/>
+                                        <constraint firstItem="cY1-CL-n56" firstAttribute="top" secondItem="XAw-0a-dGV" secondAttribute="top" constant="147" id="0d1-3R-m6F"/>
                                         <constraint firstItem="825-tk-aPR" firstAttribute="leading" secondItem="XAw-0a-dGV" secondAttribute="leading" constant="20" id="7sH-UW-odH"/>
                                         <constraint firstAttribute="trailing" secondItem="825-tk-aPR" secondAttribute="trailing" constant="20" id="7xK-8A-c9I"/>
                                         <constraint firstItem="825-tk-aPR" firstAttribute="top" secondItem="XAw-0a-dGV" secondAttribute="top" constant="46" id="LIu-xA-8bP"/>
+                                        <constraint firstAttribute="trailing" secondItem="cY1-CL-n56" secondAttribute="trailing" constant="20" id="uki-gJ-hYT"/>
                                     </constraints>
                                 </view>
                                 <prototypes>
